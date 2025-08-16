@@ -1,12 +1,13 @@
+@use '../vars';
 $spacers: (
   "0": 0,
-  xxs: $spacer-xxs,
-  xs: $spacer-xs,
-  s: $spacer-s,
-  m: $spacer-m,
-  l: $spacer-l,
-  xl: $spacer-xl,
-  xxl: $spacer-xxl
+  xxs: vars.$spacer-xxs,
+  xs: vars.$spacer-xs,
+  s: vars.$spacer-s,
+  m: vars.$spacer-m,
+  l: vars.$spacer-l,
+  xl: vars.$spacer-xl,
+  xxl: vars.$spacer-xxl
 );
 
 $types: (

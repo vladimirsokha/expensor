@@ -1,12 +1,14 @@
-@use "./utils/reset";
-@use "./vars";
+@use "utils";
+@use "vars";
+@use 'mixins';
+@use 'fns';
 
 html {
-  font-size: $fs-base;
+  font-size: vars.$fs-base;
 }
 
 body {
   font-family: Helvetica, sans-serif;
-  color: $dark;
+  color: vars.$dark;
   line-height: 1.5;
 }
