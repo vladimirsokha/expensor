@@ -1,0 +1,12 @@
+@use "./utils/reset";
+@use "./vars";
+
+html {
+  font-size: $fs-base;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  color: $dark;
+  line-height: 1.5;
+}
